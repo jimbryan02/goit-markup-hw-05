@@ -94,6 +94,7 @@ header .right ul {
 }
 
 .nav-link {
+  position: relative;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -107,10 +108,10 @@ header .right ul {
   color: var(--blue)
 }
 
-.nav-link::after {
+.nav-link:hover::after {
   content: "";
   position: absolute;
-  top: 77px;
+  top: 44px;
   display: block;
   background-color: var(--blue);
   width: 100%;
@@ -131,6 +132,11 @@ span:hover{
 
 .contact {
   color: var(--gray2);
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
 }
 
 /*CUERPO DEL PROYECTO portfolio*/
