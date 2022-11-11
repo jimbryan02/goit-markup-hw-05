@@ -119,11 +119,9 @@ header .right ul {
   border-radius: 2px;
 }
 
-.contact:hover{
-  color:var(--blue);
-}
 
-span:hover{
+
+span :hover{
   color: var(--blue);
   fill: var(--blue);
   cursor: pointer;
@@ -136,7 +134,6 @@ span:hover{
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  cursor: pointer;
 }
 
 /*CUERPO DEL PROYECTO portfolio*/
@@ -425,7 +422,16 @@ color: var(--white)
 
   .x-button{
     position: absolute;
-    right: 0;
+    width: 30px;
+    height: 30px;
+    right: 8px;
+    top: 8px;
+
+    background: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    color: #000000;
+
   }
 
 /* caracteristicas de la pagina index*/
